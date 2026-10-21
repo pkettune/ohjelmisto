@@ -2,7 +2,7 @@ import json
 import random
 from player import Player
 from items import Item
-from tools import clear_screen, new_game, save_game, load_game, initialize_game
+from tools import clear_screen, save_game, initialize_game
 
 komento = ""
 player = None

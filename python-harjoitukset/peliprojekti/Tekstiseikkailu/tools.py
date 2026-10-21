@@ -138,7 +138,7 @@ def new_game():
     clear_screen()
     manual()
     input("\nPaina enter jatkaaksesi...")
-    # None for new game, since no player object exists yet. The caller will create it.
+    # None for new game
     return None, name, age
 
 
