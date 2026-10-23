@@ -1,0 +1,48 @@
+
+title{
+  justify-content: right;
+}
+
+head{
+    margin: 20%;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+body{
+  margin-right: 20%;
+  color: #c8edfd;
+  background-color: #360e85;
+}
+
+
+.flex-container {
+  flex-direction: row-reverse;
+  justify-content: top;
+  display: flex;
+  gap: 0px;
+}
+
+.card {
+
+  padding: 20px;
+  color: #542464;
+  background-color: #efca5a;
+  border: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+  .flex-container { flex-direction: column; }
+}
+
+.custom-palette {
+  color: #360e85;
+  color: #847fdb;
+  color: #c8eaf8;
+  color: #9d41bc;
+  color: #efca5a;
+
+}

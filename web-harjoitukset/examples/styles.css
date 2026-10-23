@@ -1,0 +1,22 @@
+      body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+
+      a {
+        color: darkseagreen;
+      }
+      img {
+        width: 40%;
+        margin: 40px;
+        border-color: brown;
+        border-radius: 5px;
+      }
+
+      footer {
+        border-top: 2px solid red;
+        text-align: center;
+      }
