@@ -23,7 +23,17 @@ body{
   flex-direction: row-reverse;
   justify-content: top;
   display: flex;
-  gap: 0px;
+  gap: 5px;
+}
+
+img{
+  width: 90%;
+  max-height: 360px;
+  object-fit: fill;
+}
+
+h1{
+  text-align: center;
 }
 
 .card {
