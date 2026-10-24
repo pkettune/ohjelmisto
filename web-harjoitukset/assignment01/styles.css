@@ -1,58 +1,101 @@
+/*-----MAIN PAGE-----*/
 
-title{
-  justify-content: right;
+/* "CSS RESET" *=universal selector for body, div, p etc.. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-head{
-    margin: 20%;
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-  padding: 20px;
-  width: 100%;
-  background-color: aquamarine;
+body {
+  background: #dad8fb;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #000;
+  padding: 16px 9px;
 }
 
-body{
-  margin-right: 20%;
-  color: #c8edfd;
-  background-color: #360e85;
-}
-
-
-.flex-container {
-  flex-direction: row-reverse;
-  justify-content: top;
+.page {
+  background: linear-gradient(0deg, #c8edfd 0%, #dad8fb 100%);
+  min-height: calc(100vh - 44px);
   display: flex;
-  gap: 5px;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-img{
-  width: 90%;
-  max-height: 360px;
-  object-fit: fill;
+.site {
+  width: 100%;
+  max-width: 817px;
+}
+
+/*-----NAVBAR-----*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 55px;
+  background: #efca5a;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 171px;
+  background: #9d41bc;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding-right: 42px;
+  gap: 85px;
+}
+
+/*-----home, products and contact "buttons"*/
+
+.nav-links{
+  color: #EFCA5A;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  border-bottom-color: #333;
+}
+
+
+section{
+  min-height: fit-content;
+  background-color: #EFCA5A;
+  background: linear-gradient(0deg, #EFCA5A 0%, #360e85 100%);
 }
 
 h1{
   text-align: center;
 }
 
-.card {
-
-  padding: 20px;
-  color: #542464;
-  background-color: #efca5a;
-  border: 1px solid #333;
-}
-
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .flex-container { flex-direction: column; }
-}
+} */
 
-.custom-palette {
+custom-palette {
   color: #360e85;
-  color: #847fdb;
-  color: #c8eaf8;
+  color: #dad8fb;
+  color: #c8edfd;
   color: #9d41bc;
   color: #efca5a;
 
 }
+
+/*-----PRODUCTS-----*/
+/*-----CONTACTS-----*/
