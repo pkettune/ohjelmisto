@@ -7,24 +7,46 @@
   padding: 0;
 }
 
+head{
+  padding: top 100px;
+}
+
+.title{
+  padding-top: 30px;
+}
+
+main{
+  /* min-height: 100%; */
+  background-color: #EFCA5A;
+  background: linear-gradient(0deg, #360e85 20%, #EFCA5A 100%);
+}
+
 body {
-  background: #dad8fb;
-  font-family: Verdana, Geneva, sans-serif;
+  background: linear-gradient(0deg, #c8edfd 0%, #dad8fb 100%);
+  min-height: 900px;
+  /* min-width: 650px; */
+  font-family: Arial, Helvetica, sans-serif;
   color: #000;
   padding: 16px 9px;
 }
 
 .page {
-  background: linear-gradient(0deg, #c8edfd 0%, #dad8fb 100%);
-  min-height: calc(100vh - 44px);
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  margin: 0px auto;
+  max-width: 70%;
+}
+
+.frontImage{
+width: 100%;
+height: 400px;
+object-fit: fill;
+padding: 20px;
+
 }
 
 .site {
-  width: 100%;
-  max-width: 817px;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 /*-----NAVBAR-----*/
@@ -34,20 +56,21 @@ body {
   align-items: stretch;
   height: 55px;
   background: #efca5a;
+  border-bottom: 2px solid transparent;
+  border-color: #000;
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 171px;
+  width: 170px;
   background: #9d41bc;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   text-decoration: none;
 }
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -55,30 +78,23 @@ body {
   gap: 85px;
 }
 
+
 /*-----home, products and contact "buttons"*/
 
-.nav-links{
-  color: #EFCA5A;
-}
-
-.nav-links a {
+  
+  .nav-links a {
   text-decoration: none;
   font-size: 14px;
   padding: 6px 0;
   border-bottom: 2px solid transparent;
 }
 
+/*https://stackoverflow.com/questions/70560680/html-css-triggering-active-class-for-a-section-in-index-html*/
 .nav-links a:hover,
 .nav-links a.active {
   border-bottom-color: #333;
 }
 
-
-section{
-  min-height: fit-content;
-  background-color: #EFCA5A;
-  background: linear-gradient(0deg, #EFCA5A 0%, #360e85 100%);
-}
 
 h1{
   text-align: center;
@@ -98,4 +114,23 @@ custom-palette {
 }
 
 /*-----PRODUCTS-----*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  gap: 10px;
+}
+
+.products {
+  min-height: 400px;
+  min-width: auto;
+  padding: 20px;
+  background-color: #c8edfd;
+  border: 1px solid #333;
+  justify-content: center;
+}
+
+/* @media (max-width: 600px){
+  .grid-container { flex-direction: row;}
+} */
 /*-----CONTACTS-----*/
