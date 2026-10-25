@@ -1,4 +1,3 @@
-/*-----MAIN PAGE-----*/
 
 /* "CSS RESET" *=universal selector for body, div, p etc.. */
 * {
@@ -7,47 +6,50 @@
   padding: 0;
 }
 
+/*-----MAIN PAGE-----*/
 head{
-  padding: top 100px;
+  padding: top 2%;
 }
 
 .title{
+  justify-self: center;
   padding-top: 30px;
 }
 
 main{
-  /* min-height: 100%; */
+  justify-content: space-between;
   background-color: #EFCA5A;
   background: linear-gradient(0deg, #360e85 20%, #EFCA5A 100%);
+  /* padding: 5%; */
 }
 
 body {
   background: linear-gradient(0deg, #c8edfd 0%, #dad8fb 100%);
   min-height: 900px;
-  /* min-width: 650px; */
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
-  padding: 16px 9px;
 }
 
 .page {
   margin: 0px auto;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .frontImage{
 width: 100%;
 height: 400px;
 object-fit: fill;
-padding: 20px;
+padding-top: 1%;
+padding-left: 3%;
+padding-right: 3%;
+padding-bottom: 2%;
 
 }
 
-.site {
-  min-height: 100%;
+/* .site {
   width: auto;
   height: auto;
-}
+} */
 
 /*-----NAVBAR-----*/
 .navbar {
@@ -78,6 +80,13 @@ padding: 20px;
   gap: 85px;
 }
 
+.intro{
+  color: #c8edfd;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 
 /*-----home, products and contact "buttons"*/
 
@@ -95,11 +104,6 @@ padding: 20px;
   border-bottom-color: #333;
 }
 
-
-h1{
-  text-align: center;
-}
-
 /* @media (max-width: 600px) {
   .flex-container { flex-direction: column; }
 } */
@@ -114,10 +118,18 @@ custom-palette {
 }
 
 /*-----PRODUCTS-----*/
+
+.product-intro{
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: center;
+  padding: 2%;
   gap: 10px;
 }
 
@@ -130,7 +142,68 @@ custom-palette {
   justify-content: center;
 }
 
+.products p{
+    padding-bottom: 2%;
+}
+
+.productImage{
+  width: 100%;
+height: 200px;
+object-fit: fill;
+padding-left: 2%;
+padding-right: 2%;
+/* padding-bottom: 2%; */
+}
+
+article{
+  padding: 5%;
+}
+
+article img{
+  width: 100%;
+  padding-top: 3%;
+}
+
+h3{
+  font-size: small;
+  font-style: italic;
+  padding-bottom: 3%;
+}
+
 /* @media (max-width: 600px){
   .grid-container { flex-direction: row;}
 } */
+
+
 /*-----CONTACTS-----*/
+
+.contact-layout{
+  display: grid;
+  grid-template-columns: 291px 1fr;
+  gap: 0;
+  align-items: start;
+}
+
+.contact-title{
+  /* justify-self: left; */
+  padding-left: 3%;
+  justify-content: space-between;
+} 
+
+
+.contact{
+  padding: 0%;
+}
+
+.contact-info{
+  padding-top: 5%;
+}
+
+.map-image{
+  display: flex;
+  align-items: center;
+}
+
+.address{
+  justify-self: left;
+}
