@@ -26,6 +26,7 @@ main{
 body {
   background: linear-gradient(0deg, #c8edfd 0%, #dad8fb 100%);
   min-height: 900px;
+  min-width: none;
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
 }
@@ -45,11 +46,6 @@ padding-right: 3%;
 padding-bottom: 2%;
 
 }
-
-/* .site {
-  width: auto;
-  height: auto;
-} */
 
 /*-----NAVBAR-----*/
 .navbar {
@@ -179,9 +175,7 @@ h3{
 
 .contact-layout{
   display: grid;
-  grid-template-columns: 291px 1fr;
-  gap: 0;
-  align-items: start;
+  grid-template-columns: 300px 1fr;
 }
 
 .contact-title{
@@ -201,13 +195,13 @@ h3{
 
 .map-image{
   justify-self: right;
-  width: 1000px;
-  height: 1000px;
-  object-fit: fill;
+  max-width: fit-content;
+  min-width: 40%;
+  min-height: 40%;
   padding-top: 1%;
+  padding-bottom: 2%;
   padding-left: 3%;
   padding-right: 3%;
-  padding-bottom: 2%;
 }
 
 .address{
