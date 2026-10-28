@@ -1,0 +1,5 @@
+  var cPurple = '#360e85'
+  var cLavender = '#dad8fb'
+  var cBlue = '#c8edfd'
+  var cPink = '#9d41bc'
+  var cYellow = '#efca5a'
