@@ -90,7 +90,7 @@ padding-bottom: 2%;
 
 /*-----home, products and contact "buttons"*/
 
-  
+
   .nav-links a {
   text-decoration: none;
   font-size: 14px;
@@ -185,23 +185,29 @@ h3{
 }
 
 .contact-title{
-  /* justify-self: left; */
-  padding-left: 3%;
   justify-content: space-between;
-} 
+}
 
 
 .contact{
-  padding: 0%;
+  padding-left: 3%;
 }
 
 .contact-info{
-  padding-top: 5%;
+  padding-top: 15%;
+  font-size: larger;
+
 }
 
 .map-image{
-  display: flex;
-  align-items: center;
+  justify-self: right;
+  width: 1000px;
+  height: 1000px;
+  object-fit: fill;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
 }
 
 .address{
