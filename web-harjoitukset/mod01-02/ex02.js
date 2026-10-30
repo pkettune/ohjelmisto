@@ -1,4 +1,5 @@
 "use strict";
+
 function askName()
 {
 const name = prompt("What is your name?");

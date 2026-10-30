@@ -2,14 +2,14 @@
 
 ### Assignment 01
 
-[homepage assignment](https://github.com/pkettune/ohjelmisto/tree/e1e10b870febecb95473106821a8ecc5c07c8500/web-harjoitukset/assignment01)
+[homepage assignment](https://users.metropolia.fi/~petrket/webdev/assignment01/)
 
-[results of lighthouse etc.](https://users.metropolia.fi/~petrket/assignment01/results)
+[results of lighthouse etc.](https://users.metropolia.fi/~petrket/webdev/assignment01/results.html)
 
 
-### JS modules 1 and 2
+### JS modules 01 and 02
 
-[My link to js mod 1 and 2 folder at github.com](https://github.com/pkettune/ohjelmisto/tree/0709a255d71dfa29d913c14f5a97bcca7c1c3075/web-harjoitukset/mod01-02)
+[My link to js mod 01 and 02 folder](https://github.com/pkettune/ohjelmisto/tree/0709a255d71dfa29d913c14f5a97bcca7c1c3075/web-harjoitukset/mod01-02)
 
 Completed assignments:
 
