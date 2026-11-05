@@ -7,9 +7,18 @@
 [results of lighthouse etc.](https://users.metropolia.fi/~petrket/webdev/assignment01/results.html)
 
 
+[Link to js mods folder](https://users.metropolia.fi/~petrket/webdev/)
+
+### JS module 3
+
+Completed assignments:
+- Task 1: 2 p
+- Task 2: 2 p
+- Task 3: 2 p
+
+
 ### JS modules 01 and 02
 
-[Link to js mods folder](https://users.metropolia.fi/~petrket/webdev/)
 
 Completed assignments:
 
@@ -25,10 +34,5 @@ Completed assignments:
 
 ---
 
-### JS module 3
-
-[My link to js mod 3 folder at github.com](https://github.com/pkettune/ohjelmisto/tree/0709a255d71dfa29d913c14f5a97bcca7c1c3075/web-harjoitukset/mod01-02)
-
-Completed assignments:
 
 ... and so on ... -->
