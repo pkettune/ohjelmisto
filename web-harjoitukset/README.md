@@ -17,8 +17,12 @@ Completed assignments:
 - Task 3: 2p
 - Task 4: 2p
 - Task 5: 2p
+- Task 6: 2p
+- Task 7: 2p
+- Task 8: 2p
+- Task 9: 3p
 
-**Total 10p**
+**Total 19p**
 
 
 ### JS modules 01 and 02
