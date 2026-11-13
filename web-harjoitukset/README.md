@@ -9,6 +9,17 @@
 
 [Link to js mods folder](https://users.metropolia.fi/~petrket/webdev/)
 
+### JS module 4
+
+Completed assignments:
+- Task 1: 2p
+- Task 2: 2p
+- Task 3: 2p
+- Task 4: 2p
+- Task 5: 5p
+
+**Total 13p**
+
 ### JS module 3
 
 Completed assignments:
